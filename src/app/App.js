@@ -3,6 +3,7 @@ import './App.css';
 import { Component } from 'react';
 
 import MainPage from '../components/mainPage/mainPage';
+import Footer from '../components/footer/footer';
 
 import solim from '../img/solim.png';
 import presto from '../img/presto.png';
@@ -24,6 +25,7 @@ class App extends Component  {
         return (
             <div>
                 <MainPage best={this.state.best}/>
+                <Footer/>
             </div>
         )
     }

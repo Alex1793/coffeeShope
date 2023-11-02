@@ -1,9 +1,10 @@
 import './mainPage.sass'
 
 import BestItem from '../bestItem/bestItem';
+import Navbar from '../navbar/navbar';
 
 import logoWhite from '../../img/coffee-beans.png';
-import logoBlack from '../../img/coffee-beans-black.png'
+import logoBlack from '../../img/coffee-beans-black.png';
 
 function MainPage ({best}) {
 
@@ -16,6 +17,7 @@ function MainPage ({best}) {
     return (
         <div>
             <section className="header">
+                <Navbar/>
                 <h1 className="header_descr">Everything You Love About Coffee</h1>
 
                 <div className="header_logo">
